@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -54,7 +54,8 @@
 		E5ED619423489D3E00412231 /* rx-swift-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rx-swift-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5ED619823489D3E00412231 /* rx_swift_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rx_swift_exampleUITests.swift; sourceTree = "<group>"; };
 		E5ED619A23489D3E00412231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5ED61A623489D8200412231 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E5ED61A623489D8200412231 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E5ED61A823489F3A00412231 /* RxSwiftAlamofire.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwiftAlamofire.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +90,6 @@
 				5798C1CCB9F46C734986FDA6 /* Pods-rx-swift-example.debug.xcconfig */,
 				2735DC118F01B9943B60E55D /* Pods-rx-swift-example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -119,6 +119,7 @@
 		E5ED617523489D3D00412231 /* rx-swift-example */ = {
 			isa = PBXGroup;
 			children = (
+				E5ED61A823489F3A00412231 /* RxSwiftAlamofire.playground */,
 				E5ED617623489D3D00412231 /* AppDelegate.swift */,
 				E5ED617823489D3D00412231 /* SceneDelegate.swift */,
 				E5ED617A23489D3D00412231 /* ContentView.swift */,
